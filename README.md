@@ -4,7 +4,7 @@
 
   $> ./bin/rails generate redmine_plugin header_footer_include_test
 
-2. append the line to /init.rb:
+2. append the line to [init.rb](init.rb):
 
     require_dependency 'header_footer_include_test_hooks_listener'
 
